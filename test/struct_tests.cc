@@ -157,7 +157,7 @@ typedef struct _test21 {
   void *p;
 } test21;
 
-void Initialize(v8::Handle<v8::Object> target) {
+void Initialize(v8::Local<v8::Object> target) {
   Nan::HandleScope scope;
 
   target->Set(Nan::New<v8::String>("test1 sizeof").ToLocalChecked(), Nan::New<v8::Number>(sizeof(test1)));
