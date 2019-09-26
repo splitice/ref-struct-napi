@@ -1,4 +1,4 @@
-ref-struct
+ref-struct-napi
 ==========
 ### Create ABI-compliant "[struct][]" instances on top of Buffers
 [![Build Status](https://secure.travis-ci.org/Janealter/ref-struct-napi.svg)](https://travis-ci.org/Janealter/ref-struct-napi)
