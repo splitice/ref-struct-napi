@@ -27,6 +27,7 @@
   "devDependencies": {
     "bindings": "~1.2.0",
     "nan": "2",
-    "mocha": "*"
+    "mocha": "*",
+    "ref-array-napi": "^1.2.0"
   }
 }
