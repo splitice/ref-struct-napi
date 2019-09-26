@@ -1,12 +1,12 @@
 ref-struct
 ==========
 ### Create ABI-compliant "[struct][]" instances on top of Buffers
-[![Build Status](https://secure.travis-ci.org/TooTallNate/ref-struct.svg)](https://travis-ci.org/TooTallNate/ref-struct)
-[![Build Status](https://ci.appveyor.com/api/projects/status/6v4h5v5kh9kmtke8?svg=true)](https://ci.appveyor.com/project/TooTallNate/ref-struct)
+[![Build Status](https://secure.travis-ci.org/Janealter/ref-struct-napi.svg)](https://travis-ci.org/Janealter/ref-struct-napi)
+[![Build Status](https://ci.appveyor.com/api/projects/status/scfd5p7ha5wmdt90?svg=true)](https://ci.appveyor.com/project/Janealter/ref-struct-napi)
 
 
 This module offers a "struct" implementation on top of Node.js Buffers
-using the ref "type" interface.
+using the ref "type" interface. Supports Node 6, 7, 8, 10, 12.
 
 Installation
 ------------
@@ -14,7 +14,7 @@ Installation
 Install with `npm`:
 
 ``` bash
-$ npm install ref-struct
+$ npm install ref-struct-napi
 ```
 
 
@@ -31,8 +31,8 @@ struct timeval {
 ```
 
 ``` js
-var ref = require('ref')
-var StructType = require('ref-struct')
+var ref = require('ref-napi')
+var StructType = require('ref-struct-napi')
 
 // define the time types
 var time_t = ref.types.long
@@ -67,8 +67,8 @@ instance of the struct type, then the struct type is finalized, and no more
 properties may be added to it.
 
 ``` js
-var ref = require('ref')
-var StructType = require('ref-struct')
+var ref = require('ref-napi')
+var StructType = require('ref-struct-napi')
 
 var MyStruct = StructType()
 MyStruct.defineProperty('width', ref.types.int)
