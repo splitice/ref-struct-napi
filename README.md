@@ -1,7 +1,7 @@
 ref-struct-napi
 ==========
 ### Create ABI-compliant "[struct][]" instances on top of Buffers
-[![Build Status](https://secure.travis-ci.org/Janealter/ref-struct-napi.svg)](https://travis-ci.org/Janealter/ref-struct-napi)
+[![Build Status](https://travis-ci.org/Janealter/ref-struct-napi.svg)](https://travis-ci.org/Janealter/ref-struct-napi)
 [![Build Status](https://ci.appveyor.com/api/projects/status/scfd5p7ha5wmdt90?svg=true)](https://ci.appveyor.com/project/Janealter/ref-struct-napi)
 
 
