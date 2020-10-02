@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "debug": "2",
-    "ref-napi": "^1.4.2"
+    "ref-napi": "^2.1.2"
   },
   "devDependencies": {
     "bindings": "~1.2.0",
